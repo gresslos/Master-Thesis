@@ -34,6 +34,11 @@ The scripts require Python and several Python packages:
 - `mpi4py`
 - `dted`
 
-Additional software used in the thesis includes the libRadtran, a radiative transfer library, including the two radiative transfer models used, MYSTIC and DISORT.
+Additional software used in the thesis includes libRadtran (https://www.libradtran.org/doku.php?id=start), a radiative transfer software package that includes the two radiative transfer models used: MYSTIC and DISORT.
+
+To run simulation jobs, the following requirements must be met:
+
+1. libRadtran must be downloaded and installed.
+2. The folders `output`, `tmpRTIO`, and `RESULTS` must exist in the same folder as `MakeRTM.py`. These folders are used to store temporary files and result files.
 
 
